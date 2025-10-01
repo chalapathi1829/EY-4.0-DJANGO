@@ -1,0 +1,29 @@
+.movie{
+    background-color: black;
+    display: grid;
+    /* flex-wrap: flex-start; */
+    grid-template-columns: 260px 260px 260px 260px;
+    gap: 50px;
+    padding: 50px;
+}
+body{
+    background-color: palegreen;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+h4{
+    color: white;
+    /* text-align: center; */
+}
+header{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    height: 70px;
+    padding-top: 0px;
+}
