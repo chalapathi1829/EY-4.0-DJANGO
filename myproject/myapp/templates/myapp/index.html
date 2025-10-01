@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script src="{% static 'ab.js' %}"></script>
+</head>
+<body>
+    <header>
+        <div >
+    <img src="{% static 'images/can.png' %}" alt="Photo" style="height: 100px; width: 150px;" >
+    </div>
+    <ul>
+        
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'about' %}">About</a></li>
+        <li><a href="{% url 'contact' %}">Contact</a></li>
+    </ul>
+    </header>
+    <h1 style="color: blue;">welcome to my django app</h1>
+    <ul></ul>
+    <button onclick="myFunction()">Click me to open a new window</button>
+</body>
+</html>
